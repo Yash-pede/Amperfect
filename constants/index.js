@@ -1,7 +1,7 @@
 export const exploreWorld = [
   {
     id: "world-1",
-    imgurl: "/jarvis.jpg",
+    imgurl: "/ai.jpg",
     title: "JARVIS",
     description:'cool AI modle'
   },
