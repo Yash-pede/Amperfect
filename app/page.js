@@ -14,13 +14,22 @@ export default function Home() {
     <div className="bg-black overflow-hidden text-white">
       <Navbar />
       <Hero />
-      <About />
-      <Explore />
-      <Getstarted />
-      <WhatsNew />
+      <div className="relative">
+        <About />
+        <div className="gradient-03" />
+        <Explore />
+      </div>
+      <div className="relative">
+        <Getstarted />
+        <div className="gradient-04" />
+        <WhatsNew />
+      </div>
       <World />
-      <Insigts />
-      <Feedback />
+      <div className="relative">
+        <Insigts />
+        <div className="gradient-04" />
+        <Feedback />
+      </div>
       <Fotter />
     </div>
   );
